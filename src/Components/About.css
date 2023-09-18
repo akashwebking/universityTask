@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.text{
+    margin-top: 24rem;
+    width: 62rem;
+    margin-left:5%; 
+}
+.text h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.text h1 b{
+    font-size: 100px;
+}
+.btn{
+    width: 200px;
+    margin-top: 2rem;
+}
+@media screen and (max-width: 390px){ 
+    .text{
+        margin-top:2rem;
+        width: 10rem;
+        margin-left:2%; 
+    }
+    .text h1{
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .text h1 b{
+        font-size: 20px;
+    }
+    .btn{
+        width: 90px;
+        margin-top: 0px;
+        font-size: 10px;
+        height: 25px;
+    }
+}
+#About_con{
+    margin-top: 2rem;
+}
+.row .col-6{
+    margin-top: 15rem;
+}
+.row .col-6 p{
+    font-size: 22px;
+    font-weight: 500;
+    width: 90%;
+    color: gray;
+    line-height: 35px;
+}
+#About_con button{
+    height: 40px;
+    width: 150px;
+}
+.row .col img{
+    width: 130%;
+    height: 100%;
+}
+#row .card{
+    width: 23rem;
+    margin: 3.5rem 0 ;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 178);   
+    list-style: none;
+}
+.box p{
+    width: auto;
+    color: gray;
+}
+#row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tick{
+   font-weight: 500;
+   margin-top: 20px;
+}
+.total_cards .card{
+    border-radius: 30px;
+    opacity: 0.8;
+    width: 23rem;
+}
+.circle-1{
+}
+.row{
+    position: relative;
+}
+.book-1{
+    position: absolute;
+    font-size: 40px;
+    transform: rotate(-0.10turn);
+    margin-top: 8rem;
+}
+.book-2{
+    position: absolute;
+    font-size: 40px;
+    transform: rotate(-0.9turn);
+    margin-left: 38rem;
+    margin-top: 4rem;
+}
+#Global {
+    position: relative;
+}
+#Global h1{
+    position: relative;
+}
+.book-3{
+    position: absolute;
+    font-size: 40px;
+    transform: rotate(-0.9turn);
+    margin-left:75rem;
+}
+.book-4{
+    position: absolute;
+    font-size: 40px;
+    transform: rotate(-0.10turn);
+    margin-left:-4rem;
+    margin-top: 20rem;
+}
+.book-5{
+    position: absolute;
+    font-size: 40px;
+    transform: rotate(-0.9turn);
+    margin-top: 50rem;
+    text-align: end;
+    margin-left: 90rem;
+    width: 60px;
+}
+
+.round_yellow{
+    position: absolute;
+    background-color: rgb(254, 231, 80);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 21.5rem;
+    margin-top: -1rem;
+}
+.round_blue{
+    position: absolute;
+    background-color: rgb(173, 219, 238);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: -12rem;
+    margin-top: 43rem;
+}
+
+.round_purble{
+    position: absolute;
+    background-color: #f5c0f5;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 31rem;
+    margin-top: -8rem;
+    z-index: -1;
+}
